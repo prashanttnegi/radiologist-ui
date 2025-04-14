@@ -1,0 +1,115 @@
+/* Container */
+.report-container {
+  padding: 40px;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #007bff;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Title */
+.report-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.controls select {
+  padding: 6px 10px;
+  font-size: 14px;
+}
+.section-hint {
+  font-style: italic;
+  font-size: 13px;
+  color: gray;
+}
+
+/* Sections */
+.sections-container {
+  margin-bottom: 30px;
+}
+.section {
+  background-color: #f1f8ff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 4px solid #007bff;
+  border-radius: 6px;
+}
+.section h3 {
+  margin-bottom: 10px;
+  color: #0056b3;
+}
+.section textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background-color 0.2s ease;
+}
+.add-section-btn {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+.attach-btn {
+  border: 1px solid green;
+  color: green;
+  background-color: #eaffea;
+}
+.save-btn {
+  border: 1px solid green;
+  color: green;
+  background-color: #eaffea;
+}
+.submit-btn {
+  border: 1px solid red;
+  color: red;
+  background-color: #ffeaea;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}

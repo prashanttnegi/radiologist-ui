@@ -1,0 +1,33 @@
+.dashboard-container {
+    padding: 40px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .cases-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cases-table th,
+  .cases-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .cases-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .view-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .view-link:hover {
+    text-decoration: underline;
+  }  
