@@ -1,4 +1,3 @@
-// src/data/dummyCases.js
 const dummyCases = [
     {
       id: 1,

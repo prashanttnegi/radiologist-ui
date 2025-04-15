@@ -1,4 +1,3 @@
-// src/components/CaseDetail.js
 import { useParams, useNavigate } from "react-router-dom";
 import dummyCases from "../data/dummyCases";
 import '../styles/CaseDetail.css';
